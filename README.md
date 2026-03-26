@@ -5,6 +5,7 @@
 Для каждого был выбран хорошо видимый столик и по отдельности записаны roi через скрипт select_roi.py (в нем использован обычный selectROI для выделения прямоугольной области)
 
 Результаты видео загружени в гугл диск, гитхаб не пропускает их по весу(https://drive.google.com/drive/folders/1G0L6R5CwRfaQU22vULX1Y_NrZmKK7e4G?usp=sharing)
+
 📊 Статистика по каждому видео (записаны в соответствующие файлы в папке output)
 ```python
 Видео: video1
@@ -42,6 +43,7 @@ python main.py --video data/video1.mp4
 ├── video1_events.csv     # 📊 События  
 └── video1_stats.txt      # 📈 Статистика
 ```
+
 📦 Зависимости
 opencv-python==4.10.0.84
 pandas==2.2.2

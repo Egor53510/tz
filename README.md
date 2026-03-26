@@ -63,7 +63,8 @@ ultralytics==8.3.0
 🔴 Красный = занят
 
 🐛 Проблемные случаи
-<img width="799" height="866" alt="Снимок экрана 2026-03-26 в 15 23 47" src="https://github.com/user-attachments/assets/25bf03df-f7d3-4a97-ba58-5fdc00df385c" />
+1. Изза того что прямоугольник выходит изза стола то рядом стоящие люди попадают в столик и он становится занятым хотя в нем никто не сидит
+<img width="400" height="300" alt="Снимок экрана 2026-03-26 в 15 23 47" src="https://github.com/user-attachments/assets/25bf03df-f7d3-4a97-ba58-5fdc00df385c" />
 
 📁 Структура проекта
 ```python

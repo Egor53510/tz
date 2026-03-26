@@ -31,11 +31,12 @@ python select_roi.py
 ```python
 python main.py --video data/video1.mp4
 ```
+```python
 Результат в ./output/:
 ├── video1_output.mp4     # ✅ Видео с детекцией
 ├── video1_events.csv     # 📊 События  
 └── video1_stats.txt      # 📈 Статистика
-
+```
 📦 Зависимости
 opencv-python==4.10.0.84
 pandas==2.2.2

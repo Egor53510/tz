@@ -15,21 +15,22 @@
 
 🚀 Быстрый старт
 # Клонировать
-'''
+```python
 git clone <your-repo-url>
 cd TZ
-'''
+```
 # Установить зависимости
-'''
+```python
 pip install -r requirements.txt
-'''
+```
 # 1. Выбрать столик (перед этим в самом файле в начале поменять файл с видео)
-'''
+```python
 python select_roi.py
-'''
+```
 # 2. Обработать видео (пример)
+```python
 python main.py --video data/video1.mp4
-
+```
 Результат в ./output/:
 ├── video1_output.mp4     # ✅ Видео с детекцией
 ├── video1_events.csv     # 📊 События  

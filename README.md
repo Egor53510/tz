@@ -15,15 +15,18 @@
 
 🚀 Быстрый старт
 # Клонировать
+'''
 git clone <your-repo-url>
 cd TZ
-
+'''
 # Установить зависимости
+'''
 pip install -r requirements.txt
-
+'''
 # 1. Выбрать столик (перед этим в самом файле в начале поменять файл с видео)
+'''
 python select_roi.py
-
+'''
 # 2. Обработать видео (пример)
 python main.py --video data/video1.mp4
 
